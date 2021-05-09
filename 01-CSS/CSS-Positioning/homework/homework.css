@@ -6,33 +6,78 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Ejercicio 1: Centrar el texto en un span */
 
 /* Arrancaremos este ejercicio por vos: */
-#ejercicioUno {
-
+#ejercicioUno { 
+    display: block;
+    text-align: center;
 }
 
 
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
+#ejercicioDos {
+    visibility: hidden;
 
+}
 
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
 
+#ejercicioTres {
+    position: absolute;
+    top: 100px;
+    left: 200px;
 
+}
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
 
+#ejercicioCuatro {
+    position:fixed;
+    top: 0px;
+    left:0px;   
+
+}
 
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
 
-
+#ejercicioCinco {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+}
 
 /* Ejercicio 6. */
+
+#ejercicioCinco {
+    flex-flow: row-reverse;
+    justify-content: space-around;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
